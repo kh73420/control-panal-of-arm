@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> Control Panel </title>
+</head>
+
+<body align="center" dir="ltr" >
+    <h1> <i> Control Panel of Arm </i> </h1>
+    <br> 
+<div class="slidecontainer"> 
+    
+   <form action="myphp.php" method = "POST">
+
+        <h3> <i>Slider 1</i> </h3>
+           <div class="slider1"> 
+               <input type="range" min="0" max="180" value="0" id="myRange1" class = "slider" name="va1">
+               <p>Value: <span id = "value1"></span></p>
+           </div>
+
+    <br>
+
+        <h3> <i>  Slider 2 </i></h3>
+           <div class="slider2"> 
+               <input type="range" min="0" max="180" value="0" id="myRange2" class = "slider" name="va2">
+               <p>Value: <span id = "value2"></span></p>
+           </div>
+
+    <br>
+        
+        <h3>  <i> Slider 3</i> </h3>
+        <div class="slider3"> 
+            <input type="range" min="0" max="180" value="0" id="myRange3" class = "slider" name="va3">
+            <p>Value: <span id = "value3"></span></p>
+        </div>
+
+     <br>
+
+        <h3>  <i> Slider 4</i> </h3>
+           <div class="slider4"> 
+            <input type="range" min="0" max="180" value="0" id="myRange4" class = "slider" name="va4">
+            <p>Value: <span id = "value4"></span></p>
+           </div>
+
+    <br>
+
+        <h3> <i> Slider 5</i> </h3>
+           <div class="slider5"> 
+               <input type="range" min="0" max="180" value="0" id="myRange5" class = "slider" name="va5">
+               <p>Value: <span id = "value5"></span></p>
+           </div>
+
+    <br>
+
+        <h3> <i>  Slider 6 </i></h3>
+           <div class="slider6"> 
+               <input type="range" min="0" max="180" value="0" id="myRange6" class = "slider" name="va6">
+               <p>Value: <span id = "value6"></span></p>
+           </div>
+    <br>
+    <input type="submit" value="save"  name="save" style="background-color: #d279a6; font-size: 20px; border-radius:30px; color: aliceblue;"> 
+    <input type="submit" value="run" name="ison", id="ison" style="background-color:#d279a6; font-size: 20px; border-radius:30px; color: aliceblue;" >
+    <input type="submit" value="off" name="isoff", id="isoff" style="background-color:#d279a6; font-size: 20px; border-radius:30px; color: aliceblue;" >
+     
+
+    </form>
+</div>
+  <script src="myjs.js"> </script>
+</body>
+
+</html>
