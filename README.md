@@ -6,4 +6,4 @@ This repository about creating a control panel web page for controlling six slid
 3. myjs.js
 4. myphp.php
 5. sliders.sql
-6 
+6. controlPanal.png
